@@ -1,0 +1,43 @@
+.loading-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  
+  }
+  
+  .bouncing-ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: bouncing 0.6s ease-in-out infinite;
+  }
+  
+  @keyframes bouncing {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .bouncing-ball:nth-of-type(1) {
+    animation-delay: 0s;
+    background-color: #333;
+  }
+  
+  .bouncing-ball:nth-of-type(2) {
+    animation-delay: 0.2s;
+    background-color: #555;
+  }
+  
+  .bouncing-ball:nth-of-type(3) {
+    animation-delay: 0.4s;
+    background-color: #777;
+  }
+  

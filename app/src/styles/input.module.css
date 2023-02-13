@@ -1,0 +1,35 @@
+.input {
+    --text-clr: #323;
+    --error-clr: #f28;
+    --required-clr: #f28;
+}
+
+.input__label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.input__required{
+    color: var(--required-clr);    
+}
+
+.input__field{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid var(--text-clr);
+    border-radius: 2px;
+}
+
+.input__field--error {
+    border-color: var(--error-clr);
+  }
+  
+.input__error {
+    color: var(--error-clr);
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}

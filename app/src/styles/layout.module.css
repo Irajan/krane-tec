@@ -1,0 +1,20 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.35rem 0.5rem;
+    min-height: 700px;
+}                                                                    
+
+.container--dark{
+    background-color: #343434;
+    color: #dcdcdc
+}
+
+.container--light{
+    background-color: #fff;
+    color: #343434
+}
+
+.container--unset{
+    background-color: none;
+}
